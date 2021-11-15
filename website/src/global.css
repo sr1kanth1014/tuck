@@ -39,3 +39,7 @@ button {
 button:hover {
   color: #07a041;
 }
+
+a {
+  text-decoration: none;
+}

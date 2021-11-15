@@ -45,9 +45,15 @@ let App = () => {
           <ul className="footerops">
             <li className="liops">Source Code:</li>
             <li className="liops">Gitlab</li>
-            <li className="liops">Github</li>
+            <li className="liops">
+              <a href="https://github.com/bhuvaneshduvvuri">Github</a>
+            </li>
             <li className="liops">About</li>
-            <li className="liops">© 2021 Bhuvanesh Duvvuri</li>
+            <li className="liops">
+              <a href="https://bhuvaneshduvvuri.xyz" target="_blank">
+                © 2021 Bhuvanesh Duvvuri
+              </a>
+            </li>
           </ul>
         </div>
       </div>
