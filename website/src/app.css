@@ -1,0 +1,92 @@
+.app {
+  display: block;
+}
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+.mainsec {
+  display: grid;
+  padding-top: 10rem;
+  justify-items: center;
+  justify-content: center;
+}
+.ctabtns {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, auto);
+}
+.mainnav {
+  margin: 0;
+  display: flex;
+  position: absolute;
+  right: 0;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+.mainnavops {
+  cursor: pointer;
+  padding: 0.4rem;
+}
+.mainnavops:hover {
+  color: #ccc;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.mainlogo {
+  height: 2rem;
+  margin-top: 1rem;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  display: block;
+  position: absolute;
+  border-top: 1px solid #fff;
+}
+.footerops {
+  display: flex;
+  padding: 0 35% 0 35%;
+}
+.liops {
+  cursor: pointer;
+  text-align: center;
+  padding: 0 1rem 0 1rem;
+}
+.liops:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+.mainnavops:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+.mainheading {
+  font-size: 48px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(95deg, #09009f, #00ff95 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+@media screen and (min-width: 360px) {
+  .mainheading {
+    text-align: center;
+  }
+  .subheading {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  .footerops{
+    display: block;
+    padding: 0;
+  }
+  .liops{
+    text-align: left;
+  }
+  .mainsec{
+    grid-gap: 5%;
+  }
+}
